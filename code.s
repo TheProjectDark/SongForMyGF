@@ -121,7 +121,7 @@ print_loop2:
 
 	mov rax, 35
 	mov rdi, r10
-	mov rsi, rsi
+	xor rsi, rsi
 	syscall
 
 	inc r8
@@ -144,7 +144,7 @@ print_loop3:
 
 	mov rax, 35
 	mov rdi, r10
-	mov rsi, rsi
+	xor rsi, rsi
 	syscall
 
 	inc r8
@@ -168,7 +168,7 @@ print_loop4:
 
 	mov rax, 35
 	mov rdi, r10
-	mov rsi, rsi
+	xor rsi, rsi
 	syscall
 
 	inc r8
@@ -192,7 +192,7 @@ print_loop5:
 
 	mov rax, 35
 	mov rdi, r10
-	mov rsi, rsi
+	xor rsi, rsi
 	syscall
 
 	inc r8
@@ -216,7 +216,7 @@ print_loop6:
 
 	mov rax, 35
 	mov rdi, r10
-	mov rsi, rsi
+	xor rsi, rsi
 	syscall
 
 	inc r8
@@ -240,7 +240,7 @@ print_loop7:
 
 	mov rax, 35
 	mov rdi, r10
-	mov rsi, rsi
+	xor rsi, rsi
 	syscall
 
 	inc r8
